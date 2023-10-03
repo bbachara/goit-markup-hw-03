@@ -1,0 +1,212 @@
+:root {
+  --color-primary-brand: #4d5ae5;
+  --color-pressed-state: #404bbf;
+  --color-dark: #2e2f42;
+  --color-success: #31d0aa;
+  --color-text: #434455;
+  --color-subtle-text: #8e8f99;
+  --color-acent: #e7e9fc;
+  --color-light: #f4f4fd;
+  --color-modal-overlay: #2e2f42;
+  --color-hero-background: #2e2f42;
+  --color-white-background: #ffffff;
+  --color-modal-background: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--color-text);
+  background-color: var(--color-white-background);
+  font-weight: 500;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--color-dark);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-primary-brand);
+  text-decoration: none;
+}
+
+.menu {
+  color: var(--color-dark);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--color-pressed-state);
+}
+.logo-studio {
+  color: var(--color-dark);
+}
+
+.list {
+  list-style: none;
+}
+
+.address-item {
+  font-style: normal;
+}
+
+.link-address {
+  color: var(--color-text);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.link-address:hover,
+.link-address:focus {
+  color: var(--color-pressed-state);
+}
+
+.filters-list {
+  color: var(--color-primary-brand);
+}
+
+.filter-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--color-primary-brand);
+  background-color: var(--color-light);
+  cursor: pointer;
+}
+
+.filter-button:hover,
+.filter-button:focus {
+  color: var(--color-white-background);
+  background-color: var(--color-pressed-state);
+}
+
+.footer-section {
+  background-color: var(--color-dark);
+}
+
+.logo-studio-footer {
+  text-decoration: none;
+  color: var(--color-light);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.footer-text {
+  color: var(--color-light);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
+.title {
+  text-align: center;
+  color: var(--color-white-background);
+  font-family: Roboto;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.07;
+  letter-spacing: 1.12px;
+}
+
+.title-section {
+  background-color: var(--color-dark);
+}
+
+.title-button {
+  color: var(--color-white-background);
+  background-color: var(--color-primary-brand);
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.title-button:hover,
+.title-button:focus {
+  background-color: var(--color-pressed-state);
+}
+
+.header-tertiary {
+  color: var(--color-dark);
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
+}
+
+.header-tertiary-item {
+  color: var(--color-text);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.header-secondary {
+  color: var(--color-dark);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+
+.header-secondary-empty {
+  color: var(--color-white-background);
+}
+
+.section-tertiary {
+  background-color: var(--color-light);
+}
+
+.team-list {
+  background-color: var(--color-white-background);
+}
+
+.title-empty {
+  color: var(--color-white-background);
+}
+
+.header-secondary-portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--color-dark);
+}
