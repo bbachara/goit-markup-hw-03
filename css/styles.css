@@ -55,10 +55,18 @@ body {
   padding-bottom: 120px;
 }
 
+.section-portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
 .header-wrap {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--CORNFLOWER, #e7e9fc);
+}
+
+.header-border {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .link {
@@ -91,7 +99,14 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding-right: 40px;
-  gap: 40px;
+}
+
+.header-list {
+  margin-right: 40px;
+}
+
+.header-list:last-child {
+  margin-right: 0;
 }
 
 .link:hover,
@@ -113,6 +128,7 @@ body {
 .menu .link {
   display: block;
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .navigation {
@@ -159,8 +175,7 @@ body {
   padding: 12px 24px;
   align-items: flex-start;
   border-radius: 4px;
-  border: 1px solid var(--CORNFLOWER, #e7e9fc);
-  margin-bottom: 72px;
+  border: 1px solid #e7e9fc;
 }
 
 .filter-button:hover,
@@ -169,10 +184,12 @@ body {
   background-color: var(--color-pressed-state);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
 }
 
 .button-list {
   margin-right: 24px;
+  margin-bottom: 72px;
 }
 
 .button-list:last-child {
@@ -181,6 +198,7 @@ body {
 
 .footer-section {
   background-color: var(--color-dark);
+  padding: 100px 0 100px;
 }
 
 .logo-studio-footer {
@@ -204,7 +222,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.32px;
   width: 264px;
-  padding-bottom: 100px;
 }
 
 .title {
@@ -216,7 +233,7 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
-  max-width: 498px;
+  max-width: 496px;
   text-align: center;
   margin: 0 auto;
   margin-bottom: 48px;
@@ -226,6 +243,7 @@ body {
   display: flex;
   align-items: center;
   background-color: var(--color-dark);
+  padding: 188px 0;
 }
 
 .title-button {
@@ -337,6 +355,10 @@ body {
   margin-bottom: 8px;
 }
 
+.emploee {
+  padding: 32px 16px 32px;
+}
+
 .position-list {
   text-align: center;
   margin-bottom: 32px;
@@ -352,8 +374,7 @@ body {
   text-transform: uppercase;
   color: var(--color-primary-brand);
   text-decoration: none;
-  margin-bottom: 17.5px;
-  margin-top: 101.5px;
+  margin-bottom: 16px;
 }
 
 .header-secondary-portfolio {
@@ -362,9 +383,13 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-dark);
-  padding-top: 32px;
-  padding-left: 16px;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+.portfolio-example {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 .list-net {
@@ -378,9 +403,4 @@ body {
 
 .item {
   flex-basis: calc((100% - 48px) / 3);
-}
-
-.portfolio-item {
-  padding-left: 16px;
-  padding-bottom: 32px;
 }
