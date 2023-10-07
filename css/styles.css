@@ -88,8 +88,8 @@ body {
   text-transform: uppercase;
   color: var(--color-primary-brand);
   text-decoration: none;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu {
@@ -160,6 +160,7 @@ body {
 
 .filters-list {
   color: var(--color-primary-brand);
+  margin-bottom: 72px;
 }
 
 .filter-button {
@@ -189,7 +190,6 @@ body {
 
 .button-list {
   margin-right: 24px;
-  margin-bottom: 72px;
 }
 
 .button-list:last-child {
@@ -355,7 +355,7 @@ body {
   margin-bottom: 8px;
 }
 
-.emploee {
+.employee {
   padding: 32px 16px 32px;
 }
 
